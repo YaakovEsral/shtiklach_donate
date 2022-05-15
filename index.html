@@ -7,16 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donate</title>
     <style>
+        @font-face {
+            font-family: Narkisim;
+            src: url(narkisim/NRKIS.ttf);
+        }
+
         div#container {
-            height: 100vh;
+
+            min-height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
 
+        div#hebrew-text {
+            font-family: Narkisim;
+            font-size: 20px;
+            line-height: 1.3;
+        }
+
         div.text {
             text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        div.text p {
+            margin-bottom: .5em;
         }
     </style>
 </head>
@@ -27,7 +44,8 @@
         <div id="hebrew-text" class="text">
             <p>ספר זכרון פני משה</p>
             <p>לע"נ ר' משה יצחק עזרל ז"ל</p>
-            <p>כולל חידושי תורה מאת יודעיו ומכיריו, רבותיו ובני משפחתו, וכן גנוזות מתורת רבותינו ז"ל אשר לא ראו אור מעולם</p>
+            <p>כולל חידושי תורה מאת יודעיו ומכיריו, רבותיו ובני משפחתו, וכן גנוזות מתורת רבותינו ז"ל אשר לא ראו אור
+                מעולם</p>
         </div>
         <div id="english-text" class="text">
             <p>L'iluy nishmas R' Moshe Esral z"l</p>
@@ -39,7 +57,9 @@
             <p>$250 - Quarter Page</p>
             <p>All other amounts will be recognized as well.</p>
 
-            <p>All questions can be directed to Yehuda Esral -yehudaesral@gmail.com or by phone 404-578-4883</p>
+            <p>All questions can be directed to Yehuda Esral: <br />
+                yehudaesral@gmail.com <br />
+                404-578-4883</p>
 
             <p>Tizku Lemitzvos</p>
         </div>
