@@ -1,12 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donate</title>
+    <style>
+        div#container {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div.text {
+            text-align: center;
+        }
+    </style>
 </head>
+
 <body>
-    Donate here
+
+    <div id="container">
+        <div id="hebrew-text" class="text">
+            <p>ספר זכרון פני משה</p>
+            <p>לע"נ ר' משה יצחק עזרל ז"ל</p>
+            <p>כולל חידושי תורה מאת יודעיו ומכיריו, רבותיו ובני משפחתו, וכן גנוזות מתורת רבותינו ז"ל אשר לא ראו אור מעולם</p>
+        </div>
+        <div id="english-text" class="text">
+            <p>L'iluy nishmas R' Moshe Esral z"l</p>
+
+            <p>Follow Link below to dedicate</p>
+            <p>Dedication space will be be designated in the Sefer</p>
+            <p>$1000 - Full Page</p>
+            <p>$500 - Half Page</p>
+            <p>$250 - Quarter Page</p>
+            <p>All other amounts will be recognized as well.</p>
+
+            <p>All questions can be directed to Yehuda Esral -yehudaesral@gmail.com or by phone 404-578-4883</p>
+
+            <p>Tizku Lemitzvos</p>
+        </div>
+        <form action="https://www.paypal.com/donate" method="post" target="_top">
+            <input type="hidden" name="business" value="LVUNXGGN82PCW" />
+            <input type="hidden" name="no_recurring" value="0" />
+            <input type="hidden" name="currency_code" value="USD" />
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0"
+                name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+            <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+        </form>
+    </div>
+
 </body>
+
 </html>
